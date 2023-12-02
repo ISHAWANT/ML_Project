@@ -14,10 +14,6 @@ from src.mlProject.logger import logging
 
 from src.mlProject.utils import save_object
 
-
-
-
-
 @dataclass
 class DataTransformationConfig:
     preprocessor_obj_file_path=os.path.join('artifacts',"proprocessor.pkl")
